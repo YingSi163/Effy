@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T09:09:25.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" version="17.4.0" etag="wYTIIjMMv7q75_5wqCEp" type="github"><diagram id="odhGb9dV0dcE866PLa5d">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-10T09:20:23.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="5UqqcIVbuUjXudCmq8T2" version="17.4.0" type="github">
+  <diagram id="odhGb9dV0dcE866PLa5d" name="Page-1">
+    <mxGraphModel dx="697" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rH72YspcaZQl_E3fsq7n-7" value="&lt;div&gt;会产生冲突的分支类型有三种：&lt;/div&gt;&lt;div&gt;1）高版本项目&lt;/div&gt;&lt;div&gt;2）低版本项目&lt;/div&gt;&lt;div&gt;3）高版本主干&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-8" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;只有最新提交的项目会获得冲突检测结果，所以无论什么类型的冲突，应该以最新提交的项目开发人员负责解决冲突为优先方案。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-9" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;其次应该注意的是，与高版本的主干冲突，应该提交伴随分支；如果同时与高版本的主干和其他版本项目发生冲突，是否应该在提交伴随分支的同时在原分支上提交一个新节点。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="660" y="60" width="250" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
