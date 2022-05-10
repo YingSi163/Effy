@@ -1,17 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T09:20:23.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="5UqqcIVbuUjXudCmq8T2" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T09:59:19.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="liQffy40HuL2eWP9FJZi" version="17.4.0" type="github">
   <diagram id="odhGb9dV0dcE866PLa5d" name="Page-1">
     <mxGraphModel dx="697" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rH72YspcaZQl_E3fsq7n-7" value="&lt;div&gt;会产生冲突的分支类型有三种：&lt;/div&gt;&lt;div&gt;1）高版本项目&lt;/div&gt;&lt;div&gt;2）低版本项目&lt;/div&gt;&lt;div&gt;3）高版本主干&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="rH72YspcaZQl_E3fsq7n-7" value="&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;会产生冲突的分支类型有三种：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;1）高版本项目&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;2）低版本项目&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;3）高版本主干&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="100" y="60" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rH72YspcaZQl_E3fsq7n-8" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;只有最新提交的项目会获得冲突检测结果，所以无论什么类型的冲突，应该以最新提交的项目开发人员负责解决冲突为优先方案。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
+        <mxCell id="rH72YspcaZQl_E3fsq7n-8" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;只有最新提交的项目会获得冲突检测结果，所以无论什么类型的冲突，应该以最新提交的项目开发人员负责解决冲突为优先方案。&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
           <mxGeometry x="380" y="60" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rH72YspcaZQl_E3fsq7n-9" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;其次应该注意的是，与高版本的主干冲突，应该提交伴随分支；如果同时与高版本的主干和其他版本项目发生冲突，是否应该在提交伴随分支的同时在原分支上提交一个新节点。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+        <mxCell id="rH72YspcaZQl_E3fsq7n-9" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;其次应该注意的是，与高版本的主干冲突，应该提交伴随分支；如果同时与高版本的主干和其他版本项目发生冲突，是否应该在提交伴随分支的同时在原分支上提交一个新节点。&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
           <mxGeometry x="660" y="60" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-11" value="单种冲突情况" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-13" value="两种冲突情况" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-14" value="三种冲突情况" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="120" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-15" value="相同版本分支间的冲突" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="344" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-16" value="不同版本分支间的冲突" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="344" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-17" value="低版本与高版本主干发生冲突" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="344" y="310" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-18" value="一个低版本的项目同时与其他低版本项目和高版本主干发生冲突" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-19" value="一个低版本的项目同时与其他高版本项目和高版本主干发生冲突" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="300" y="490" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-21" value="一个项目同时与相同版本和不同版本的多个项目发生冲突" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="300" y="570" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-22" value="低版本项目同时和低版本、高版本、高版本主干发生多个冲突" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="309" y="695" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rH72YspcaZQl_E3fsq7n-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
