@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T01:15:55.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Czijmn49QK7HTho7uagj" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T05:35:27.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="r9rvSydKHpxD1WTdx706" version="18.0.2" type="github">
   <diagram id="tAiEc9BprhlufLbl5p80" name="Page-1">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
         <mxCell id="18qOMuYHO0AA8W0c1snm-38" value="检测是否提交伴随分支" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82B366;strokeWidth=2;sketch=0;glass=0;shadow=0;spacing=7;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="792" y="300" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="18qOMuYHO0AA8W0c1snm-87" value="&lt;font color=&quot;#ff0000&quot;&gt;不存在冲突&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82B366;strokeWidth=2;sketch=0;glass=0;shadow=0;spacing=7;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="18qOMuYHO0AA8W0c1snm-87" value="&lt;font color=&quot;#ff0000&quot;&gt;不存在主干冲突&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82B366;strokeWidth=2;sketch=0;glass=0;shadow=0;spacing=7;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="656" y="130" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18qOMuYHO0AA8W0c1snm-88" value="存在冲突" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82B366;strokeWidth=2;sketch=0;glass=0;shadow=0;spacing=7;fontStyle=1" vertex="1" parent="1">
