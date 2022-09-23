@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T09:51:26.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="L-I-_OUa65ZAM_rGzvUA" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T09:59:49.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GwZUPvIKZJLM9xqb3xaA" version="20.2.7" type="github">
   <diagram id="uND2nv7Y5iFm22JTDvSD" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,19 +101,73 @@
           <mxGeometry x="235" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-22" value="Source&lt;br&gt;ZW_QA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="492.5" y="1190" width="120" height="60" as="geometry" />
+          <mxGeometry x="485" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-23" value="矩阵求解器的三方库因为是最底层的，所以是不是只需要ZWSim的三方库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1310" width="185" height="200" as="geometry" />
+          <mxGeometry x="460" y="1320" width="185" height="200" as="geometry" />
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-24" value="结构求解器包含三个不同级别的仓库，有一个自己的QA仓库；&lt;br&gt;把结构库当成一个来看，三方库包括矩阵求解器、ZW3D、ZWSim的zdf部分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="185" y="1310" width="220" height="190" as="geometry" />
+          <mxGeometry x="185" y="1320" width="220" height="190" as="geometry" />
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-25" value="Source&lt;br&gt;ZW_QA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="740" y="1190" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-26" value="CAE的ZW3D有Source仓库和三方库，因为三方库不提交分支，因此直接用ZW3D的三方库就好；&lt;br&gt;ZW3D因为不跑宏，所以也没有ZW_QA仓库，可以加进去跑宏，但是要跑ZW3D的宏还是CAE的宏，或者他们自己有需要录宏的地方，这个还需要讨论" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1310" width="240" height="200" as="geometry" />
+          <mxGeometry x="690" y="1320" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-27" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l3AWKnz8E78K2TEx_wQa-19" target="l3AWKnz8E78K2TEx_wQa-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="1210" as="sourcePoint" />
+            <mxPoint x="60" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-28" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="44.5" y="1330" as="sourcePoint" />
+            <mxPoint x="44.5" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-29" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294.5" y="1200" as="sourcePoint" />
+            <mxPoint x="294.5" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-30" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="l3AWKnz8E78K2TEx_wQa-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294.5" y="1320" as="sourcePoint" />
+            <mxPoint x="294.5" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-31" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="45" y="1200" as="sourcePoint" />
+            <mxPoint x="45" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-32" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="544.5" y="1200" as="sourcePoint" />
+            <mxPoint x="544.5" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-33" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545" y="1320" as="sourcePoint" />
+            <mxPoint x="544.5" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-34" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="799.5" y="1200" as="sourcePoint" />
+            <mxPoint x="799.5" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-35" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="1320" as="sourcePoint" />
+            <mxPoint x="799.5" y="1260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
