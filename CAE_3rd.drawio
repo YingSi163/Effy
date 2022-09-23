@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T09:29:53.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tXzP-skJh_9ENVEgmjAF" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T09:51:26.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="L-I-_OUa65ZAM_rGzvUA" version="20.2.7" type="github">
   <diagram id="uND2nv7Y5iFm22JTDvSD" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,13 +74,13 @@
           <mxGeometry x="480" y="660" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="900" width="1180" height="1290" as="geometry" />
+          <mxGeometry x="-100" y="890" width="1180" height="1290" as="geometry" />
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-2" value="CAE的产品线设计&lt;br&gt;&lt;br&gt;把每个求解器都分出来，成为独立的产品线，即 每个产品线都包含Source，QA和三方库，且有独立的自动化流程&lt;br&gt;就像ZWSim的三方库包含了结构求解器，矩阵求解器，ZW3D等模块&lt;br&gt;求解器的产品先独立出来，应该以ZWSim作为三方库，包含ZWSim的zdf模块，应该有自己的QA和宏" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-10" y="930" width="970" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-15" value="ZW3D" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="735" y="1070" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-16" value="Solver_Matrix" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="485" y="1070" width="120" height="60" as="geometry" />
@@ -90,6 +90,30 @@
         </mxCell>
         <mxCell id="l3AWKnz8E78K2TEx_wQa-18" value="Solver_Structural" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="235" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-19" value="Source&lt;br&gt;ZW_QA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-20" value="PPC的三方库内容如上，可以不包含ZWSim/zdf" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-37.5" y="1330" width="165" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-21" value="有三个仓库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="235" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-22" value="Source&lt;br&gt;ZW_QA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-23" value="矩阵求解器的三方库因为是最底层的，所以是不是只需要ZWSim的三方库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1310" width="185" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-24" value="结构求解器包含三个不同级别的仓库，有一个自己的QA仓库；&lt;br&gt;把结构库当成一个来看，三方库包括矩阵求解器、ZW3D、ZWSim的zdf部分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1310" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-25" value="Source&lt;br&gt;ZW_QA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l3AWKnz8E78K2TEx_wQa-26" value="CAE的ZW3D有Source仓库和三方库，因为三方库不提交分支，因此直接用ZW3D的三方库就好；&lt;br&gt;ZW3D因为不跑宏，所以也没有ZW_QA仓库，可以加进去跑宏，但是要跑ZW3D的宏还是CAE的宏，或者他们自己有需要录宏的地方，这个还需要讨论" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1310" width="240" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
