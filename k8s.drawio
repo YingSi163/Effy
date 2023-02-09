@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T06:28:16.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JZiShX-jJPzK1X3-40k-" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T07:15:37.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_ySftw4I-wE8PvjPQ8OB" version="18.0.3" type="github">
   <diagram id="0OIr32N4mZWq5NwwVB7Z" name="Page-1">
-    <mxGraphModel dx="1758" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2187" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="584" y="930" width="430" height="200" as="geometry" />
         </mxCell>
         <mxCell id="_o6XQVJBd2mjOYgitS4h-54" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="1350" height="610" as="geometry" />
+          <mxGeometry x="240" y="70" width="1540" height="1220" as="geometry" />
         </mxCell>
         <mxCell id="84oyKUZuQ5dPgv2zPIhg-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-440" y="150" width="220" height="200" as="geometry" />
@@ -36,24 +36,6 @@
         </mxCell>
         <mxCell id="84oyKUZuQ5dPgv2zPIhg-9" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="490" y="470" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_o6XQVJBd2mjOYgitS4h-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="84oyKUZuQ5dPgv2zPIhg-7" target="84oyKUZuQ5dPgv2zPIhg-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="390" as="sourcePoint" />
-            <mxPoint x="750" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_o6XQVJBd2mjOYgitS4h-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="84oyKUZuQ5dPgv2zPIhg-9" target="84oyKUZuQ5dPgv2zPIhg-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="480" as="sourcePoint" />
-            <mxPoint x="650" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_o6XQVJBd2mjOYgitS4h-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="84oyKUZuQ5dPgv2zPIhg-8" target="84oyKUZuQ5dPgv2zPIhg-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="460" as="sourcePoint" />
-            <mxPoint x="770" y="410" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="_o6XQVJBd2mjOYgitS4h-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="84oyKUZuQ5dPgv2zPIhg-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -85,9 +67,6 @@
         <mxCell id="_o6XQVJBd2mjOYgitS4h-11" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="725" y="140" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_o6XQVJBd2mjOYgitS4h-53" value="&lt;table style=&quot;border-collapse:collapse&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 139px;&quot; width=&quot;139&quot;&gt;&lt;col style=&quot;width: 564px;&quot; width=&quot;564&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;mso-height-source:userset;height:84px;&quot; height=&quot;84&quot;&gt;&lt;td style=&quot;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:left;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;etcd&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 10pt; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;集群状态集中存储。节点，pods，发布等状态，分布式数据库；&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;etcd集群至少三个节点，可独立部署集群，也可部署在master上&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:92px;&quot; height=&quot;92&quot;&gt;&lt;td style=&quot;background-color:#c7ecff;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:left;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;API Server&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;background-color: rgb(199, 236, 255); font-size: 10pt; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;接口和通讯总线，集群内部其他组件都是通过API Server和集群进行交互，可以看作是etcd的代理；是唯一能够访问操作etcd数据库的组件。&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;是集群的事件总线。&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:66px;&quot; height=&quot;66&quot;&gt;&lt;td style=&quot;background-color:#ffe9e8;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:left;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;Scheduler&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;background-color: rgb(255, 233, 232); font-size: 10pt; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;调度决策组件（发布到哪些空闲节点）&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;K8s的调度决策算法是可以根据需要扩展的。&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:64px;&quot; height=&quot;64&quot;&gt;&lt;td style=&quot;background-color: rgb(234, 250, 241); font-size: 10pt; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;Controller &lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;Manager&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;background-color:#eafaf1;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:left;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;协调发布状态最终一致组件&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="240" width="550" height="320" as="geometry" />
-        </mxCell>
         <mxCell id="_o6XQVJBd2mjOYgitS4h-56" value="Worker Node(s)&lt;br&gt;组件构成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="614" y="810" width="140" height="35" as="geometry" />
         </mxCell>
@@ -98,7 +77,7 @@
           <mxGeometry x="754" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_o6XQVJBd2mjOYgitS4h-59" value="kube-proxy" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=15;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="543" y="1170" width="116" height="40" as="geometry" />
+          <mxGeometry x="543" y="1150" width="116" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_o6XQVJBd2mjOYgitS4h-61" value="Container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-350" y="263.75" width="92.5" height="50" as="geometry" />
@@ -193,17 +172,41 @@
         <mxCell id="_o6XQVJBd2mjOYgitS4h-90" value="API Server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="260" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_o6XQVJBd2mjOYgitS4h-91" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF3333;strokeWidth=2;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_o6XQVJBd2mjOYgitS4h-57" target="_o6XQVJBd2mjOYgitS4h-90">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="353.25" y="920" as="sourcePoint" />
-            <mxPoint x="474.75" y="960.1652892561983" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_o6XQVJBd2mjOYgitS4h-92" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF3333;strokeWidth=2;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="_o6XQVJBd2mjOYgitS4h-59" target="_o6XQVJBd2mjOYgitS4h-90">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="548" y="900" as="sourcePoint" />
             <mxPoint x="390" y="1025" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_o6XQVJBd2mjOYgitS4h-93" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="84oyKUZuQ5dPgv2zPIhg-8" target="84oyKUZuQ5dPgv2zPIhg-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="480" as="sourcePoint" />
+            <mxPoint x="730" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_o6XQVJBd2mjOYgitS4h-94" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;strokeColor=#000000;strokeWidth=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="84oyKUZuQ5dPgv2zPIhg-9" target="84oyKUZuQ5dPgv2zPIhg-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="460" as="sourcePoint" />
+            <mxPoint x="660" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_o6XQVJBd2mjOYgitS4h-95" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="84oyKUZuQ5dPgv2zPIhg-6" target="84oyKUZuQ5dPgv2zPIhg-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="390" as="sourcePoint" />
+            <mxPoint x="650" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_o6XQVJBd2mjOYgitS4h-96" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;strokeColor=#FF3333;strokeWidth=2;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_o6XQVJBd2mjOYgitS4h-90" target="_o6XQVJBd2mjOYgitS4h-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="950" as="sourcePoint" />
+            <mxPoint x="440" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_o6XQVJBd2mjOYgitS4h-97" value="&lt;table style=&quot;border-collapse:collapse&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 163px;&quot; width=&quot;163&quot;&gt;&lt;col style=&quot;width: 627px;&quot; width=&quot;627&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;mso-height-source:userset;height:84px;&quot; height=&quot;84&quot;&gt;&lt;td style=&quot;font-size:10pt;font-weight:bold;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:center;mso-number-format: &#39;General&#39;;&quot; rowspan=&quot;1&quot; colspan=&quot;2&quot;&gt;&lt;font style=&quot;font-size:10pt;font-weight:bold;color:#000000;&quot;&gt;Master Node(s)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:84px;&quot; height=&quot;84&quot;&gt;&lt;td style=&quot;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:center;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;etcd&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 10pt; color: rgb(0, 0, 0); border-left: 0.5pt solid rgb(0, 0, 0); border-right: 0.5pt solid rgb(0, 0, 0); border-bottom: 0.5pt solid rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;font-weight:bold;color:#000000;&quot;&gt;集群状态集中存储&lt;/font&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;。节点，pods，发布等状态，分布式数据库；&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;etcd集群至少三个节点，可独立部署集群，也可部署在master上&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:92px;&quot; height=&quot;92&quot;&gt;&lt;td style=&quot;background-color:#c7ecff;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:center;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;API Server&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;background-color: rgb(199, 236, 255); font-size: 10pt; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;font-weight:bold;color:#000000;&quot;&gt;接口和通讯总线&lt;/font&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;，集群内部其他组件都是通过API Server和集群进行交互，可以看作是etcd的代理；是唯一能够访问操作etcd数据库的组件。&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;是集群的事件总线。&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:66px;&quot; height=&quot;66&quot;&gt;&lt;td style=&quot;background-color:#ffe9e8;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:center;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;Scheduler&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;background-color: rgb(255, 233, 232); font-size: 10pt; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;font-weight:bold;color:#000000;&quot;&gt;调度决策组件&lt;/font&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;（发布到哪些空闲节点）&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;K8s的调度决策算法是可以根据需要扩展的。&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:105px;&quot; height=&quot;105&quot;&gt;&lt;td style=&quot;background-color: rgb(234, 250, 241); font-size: 10pt; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: center;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;Controller &lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;Manager&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;background-color: rgb(234, 250, 241); font-size: 10pt; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;font-weight:bold;color:#000000;&quot;&gt;协调发布状态最终一致组件。&lt;/font&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;通过API Server监控集群的状态，确保实际状态和预期状态最终一致。&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;例：如果一个应用要求发布十个Pods，那controller manager会保证这个应用最终启动10个pods，&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;如果有pods中间挂了，那会负责协调重启pods，启多了，会协调关闭多余pods。&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="160" width="550" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_o6XQVJBd2mjOYgitS4h-99" value="&lt;table style=&quot;border-collapse:collapse&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 163px;&quot; width=&quot;163&quot;&gt;&lt;col style=&quot;width: 627px;&quot; width=&quot;627&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;mso-height-source:userset;height:60px;&quot; height=&quot;60&quot;&gt;&lt;td style=&quot;font-size:10pt;font-weight:bold;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:center;mso-number-format: &#39;General&#39;;&quot; rowspan=&quot;1&quot; colspan=&quot;2&quot;&gt;&lt;font style=&quot;font-size:10pt;font-weight:bold;color:#000000;&quot;&gt;Worker Nodes（k8s资源的提供者）&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:100px;&quot; height=&quot;100&quot;&gt;&lt;td style=&quot;background-color:#fff9e3;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;text-align:center;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;kubelet&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;background-color: rgb(255, 249, 227); font-size: 10pt; color: rgb(0, 0, 0); border-left: 0.5pt solid rgb(0, 0, 0); border-top: 0.5pt solid rgb(0, 0, 0); border-right: 0.5pt solid rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;font-weight:bold;color:#000000;&quot;&gt;Worker节点资源管理&lt;/font&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;。相当于agent角色，监听在API Server上，根据master节点的指示做例如启动或者&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;关闭pod，同时汇报worker状态给master。&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:119px;&quot; height=&quot;119&quot;&gt;&lt;td style=&quot;background-color:#ffdcc4;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:center;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;container runtime&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;background-color: rgb(255, 220, 196); font-size: 10pt; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-weight: bold; font-size: 10pt; color: rgb(0, 0, 0);&quot;&gt;容器资源管理&lt;/font&gt;&lt;font style=&quot;font-size: 10pt; color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;。&lt;/b&gt;docker agent，kubelet委托给ct来管理容器，如启动或关闭容器，获取容器状态等。&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;mso-height-source:userset;height:105px;&quot; height=&quot;105&quot;&gt;&lt;td style=&quot;background-color:#fdebff;font-size:10pt;color:#000000;border-left: .5pt solid #000000;border-top: .5pt solid #000000;border-right: .5pt solid #000000;border-bottom: .5pt solid #000000;text-align:center;mso-number-format: &#39;General&#39;;&quot;&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;kube-proxy&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;background-color: rgb(253, 235, 255); font-size: 10pt; font-weight: bold; color: rgb(0, 0, 0); border-width: 0.5pt; border-style: solid; border-color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font style=&quot;font-size:10pt;font-weight:bold;color:#000000;&quot;&gt;实现Service抽象组件，屏蔽PodIP的变化和负载均衡。&lt;/font&gt;&lt;font style=&quot;font-size:10pt;color:#000000;&quot;&gt;管理服务网络，pod是不稳定的，它的IP会变。&lt;br style=&quot;mso-data-placement:same-cell;&quot;&gt;当需要把k8s的服务暴露给外网时，也需要kube-proxy进行代理转发&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="810" width="550" height="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
