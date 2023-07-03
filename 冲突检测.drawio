@@ -1,25 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T09:25:54.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="d8zKs2GjfMc46I-DFBa6" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T09:41:04.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dND2aFD0wD0wYtlD9dv1" version="21.0.10" type="github">
   <diagram name="第 1 页" id="Z4eAZqu2N7-Lt7AsqKX3">
-    <mxGraphModel dx="1372" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1935" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QbmTx8f9Gs04z3HgYHxX-6" value="MergeConflDetect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="110" width="170" height="116" as="geometry">
-            <mxRectangle x="330" y="370" width="140" height="30" as="alternateBounds" />
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="1090" width="1080" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-28" value="QMS提交&lt;br&gt;获取项目名" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-29" value="检测是否已有解决冲突的分支；&lt;br&gt;从11中拉取Source和ZW_QA仓库的全量分支；&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-30" target="QbmTx8f9Gs04z3HgYHxX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-30" value="获取分支信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-385" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-33" value="1.112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-31" target="QbmTx8f9Gs04z3HgYHxX-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-31" value="开发将分支push到1.4源码仓库，触发hg hook，将分支推送到1.112的仓库。矩阵库的自动测试流程在1.112中进行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1120" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-37" value="pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-34" target="QbmTx8f9Gs04z3HgYHxX-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-34" value="增量代码审查cppcheck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-39" value="pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-36" target="QbmTx8f9Gs04z3HgYHxX-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="1310" />
+              <mxPoint x="150" y="1310" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QbmTx8f9Gs04z3HgYHxX-7" value="+&amp;nbsp;branch_conflict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QbmTx8f9Gs04z3HgYHxX-6">
-          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-36" value="矩阵库编译" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QbmTx8f9Gs04z3HgYHxX-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QbmTx8f9Gs04z3HgYHxX-6">
-          <mxGeometry y="52" width="170" height="8" as="geometry" />
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-41" value="pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-38" target="QbmTx8f9Gs04z3HgYHxX-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QbmTx8f9Gs04z3HgYHxX-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QbmTx8f9Gs04z3HgYHxX-6">
-          <mxGeometry y="60" width="170" height="26" as="geometry" />
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-38" value="Gtest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QbmTx8f9Gs04z3HgYHxX-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="QbmTx8f9Gs04z3HgYHxX-6">
-          <mxGeometry y="86" width="170" height="30" as="geometry" />
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-44" value="pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-40" target="QbmTx8f9Gs04z3HgYHxX-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-40" value="推送RB&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-43" value="发送企业微信提醒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-45" value="fail" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-36" target="QbmTx8f9Gs04z3HgYHxX-43">
+          <mxGeometry x="-0.8049" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1250" as="sourcePoint" />
+            <mxPoint x="120" y="1200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="1190" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-46" value="fail" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="1260" as="sourcePoint" />
+            <mxPoint x="250" y="1190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
