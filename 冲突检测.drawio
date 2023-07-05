@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T06:40:28.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BjseF8hPnyBWAs4eH7jw" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T07:25:54.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ealf5XgkDbTDwcpJRu61" version="21.0.10" type="github">
   <diagram name="第 1 页" id="Z4eAZqu2N7-Lt7AsqKX3">
-    <mxGraphModel dx="2439" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2265" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-75" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="1587" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-55" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1244.25" width="115" height="105.5" as="geometry" />
+        </mxCell>
         <mxCell id="QbmTx8f9Gs04z3HgYHxX-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-520" y="1090" width="1080" height="340" as="geometry" />
         </mxCell>
@@ -73,8 +79,89 @@
             <mxPoint x="250" y="1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QbmTx8f9Gs04z3HgYHxX-48" value="使用client.py，或以后使用QMS工具提交解决冲突的_resolved分支；触发Jenkins流水线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="1600" width="260" height="90" as="geometry" />
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-48" target="QbmTx8f9Gs04z3HgYHxX-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-48" value="使用client.py，或以后使用QMS工具提交解决冲突的_resolved分支；触发Jenkins流水线" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-515" y="1550" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-58" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="1727" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-49" target="QbmTx8f9Gs04z3HgYHxX-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-49" value="检测是否为解决冲突的分支：&lt;br&gt;1）以_resolved结尾&lt;br&gt;2）有一个以上的父节点" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-477" y="1694" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-50" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-123;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="1270" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-51" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="762.5" y="1270" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-52" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="742.5" y="1310" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-53" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.sort;" vertex="1" parent="1">
+          <mxGeometry x="742.5" y="1287" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-56" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="694.5" y="1210" width="118" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-62" target="QbmTx8f9Gs04z3HgYHxX-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-62" value="在对应缺少分支的仓库中创建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1694.5" width="120" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-64" target="QbmTx8f9Gs04z3HgYHxX-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-64" value="合并父节点到新建的resolved分支" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1697.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-66" target="QbmTx8f9Gs04z3HgYHxX-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-66" value="bundle这个处理好的分支到某个文件夹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1697" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-68" value="保存创建的分支的哈希值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="1697" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-70" value="pass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-73" value="检查提交的resolved分支是否已有ZW_QA仓库的分支" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="1750" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-74" value="检查两个父节点分支有没有ZW_QA和3rdLib分支" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1631" width="130" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-78" value="无" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-73">
+          <mxGeometry x="-0.4737" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="1780" as="sourcePoint" />
+            <mxPoint x="20" y="1730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="1780" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-75" target="QbmTx8f9Gs04z3HgYHxX-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1680" as="sourcePoint" />
+            <mxPoint x="110" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbmTx8f9Gs04z3HgYHxX-81" value="有" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QbmTx8f9Gs04z3HgYHxX-74" target="QbmTx8f9Gs04z3HgYHxX-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1610" as="sourcePoint" />
+            <mxPoint x="220" y="1560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
