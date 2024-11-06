@@ -1,9 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.12">
   <diagram name="第 1 页" id="80V0Xgg8dt-2O2sXqJ6C">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="530" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-1" value="自动判断用户是否签署合同，若已签署（客户已签署），则不做提醒直接结束；若未签署，则在完成订单时弹出提醒框" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="90" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-2" value="完成订单时，即订单状态为”已完成“时，在最后完成页面判断该用户的户号是否已签署。弹出提示框" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-4" value="1、根据户号判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="340" width="336" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p_k-JRhaI_ktqnQm1jqs-2" target="p_k-JRhaI_ktqnQm1jqs-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="330" as="sourcePoint" />
+            <mxPoint x="430" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-7" value="该用户【户号】未签署供气合同&lt;div&gt;是否去签署？&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-8" value="忽略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="410" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-9" value="新增合同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-11" value="配送员可自行判断该用户是否已在其他账户实际签署合同，点”忽略“后结束流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="490" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="p_k-JRhaI_ktqnQm1jqs-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="369" y="440" as="sourcePoint" />
+            <mxPoint x="370" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-13" value="直接到合同签署填用户信息的页面，完成合同签署后结束流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="490" width="187" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p_k-JRhaI_ktqnQm1jqs-9" target="p_k-JRhaI_ktqnQm1jqs-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="465" y="270" as="sourcePoint" />
+            <mxPoint x="465" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-15" value="跳转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p_k-JRhaI_ktqnQm1jqs-14">
+          <mxGeometry x="0.222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-17" value="1、根据联系电话判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="780" width="560" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-19" value="考虑到一个用户的同一个联系电话开了多个账户且未关联。并且这些账户可能是他自己的也可能是帮别人开的，所以这里是判断该用户的联系电话的某个户号已签署，并提示现在完成订单的用户户号是否需要关联签了合同的户号的合同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="670" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-20" value="该用户【户号】同一联系电话【用户名称+联系电话】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="780" width="331" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p_k-JRhaI_ktqnQm1jqs-22" value="这个写法有点绕" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
