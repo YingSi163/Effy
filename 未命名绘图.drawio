@@ -1,9 +1,116 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.4">
   <diagram name="第 1 页" id="1sFSbbEGuXlfNKSqjcJ1">
-    <mxGraphModel>
+    <mxGraphModel dx="1017" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-1" value="退单（订单未完成）&lt;div&gt;退货（订单已完成）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-2" value="生成售后单号，微信订单进入“待审核”状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MTLPkXPKNpE5f-dPuwTn-1" target="MTLPkXPKNpE5f-dPuwTn-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="250" as="sourcePoint" />
+            <mxPoint x="350" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-4" value="发起" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MTLPkXPKNpE5f-dPuwTn-3">
+          <mxGeometry x="-0.2889" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-5" value="进入“已审核”状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-6" value="进入“已关闭”状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTLPkXPKNpE5f-dPuwTn-2" target="MTLPkXPKNpE5f-dPuwTn-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="330" as="sourcePoint" />
+            <mxPoint x="210" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="320" />
+              <mxPoint x="280" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-8" value="审核通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MTLPkXPKNpE5f-dPuwTn-7">
+          <mxGeometry x="0.1135" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTLPkXPKNpE5f-dPuwTn-2" target="MTLPkXPKNpE5f-dPuwTn-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="350" as="sourcePoint" />
+            <mxPoint x="480" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="320" />
+              <mxPoint x="500" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-10" value="审核不通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MTLPkXPKNpE5f-dPuwTn-9">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint x="15" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-11" value="退款原路返回，直接进入“已完成”状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTLPkXPKNpE5f-dPuwTn-5" target="MTLPkXPKNpE5f-dPuwTn-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="490" as="sourcePoint" />
+            <mxPoint x="180" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-13" value="退单售后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MTLPkXPKNpE5f-dPuwTn-12">
+          <mxGeometry x="-0.3429" y="-1" relative="1" as="geometry">
+            <mxPoint x="-44" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-14" value="需要配送员在app端接退货工单，完成退货扫码等流程。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTLPkXPKNpE5f-dPuwTn-5" target="MTLPkXPKNpE5f-dPuwTn-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="460" as="sourcePoint" />
+            <mxPoint x="380" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-17" value="退货售后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MTLPkXPKNpE5f-dPuwTn-16">
+          <mxGeometry x="-0.3333" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-18" value="退款原路返回，现金单需线下结算。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTLPkXPKNpE5f-dPuwTn-14" target="MTLPkXPKNpE5f-dPuwTn-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="580" as="sourcePoint" />
+            <mxPoint x="400" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-20" value="配送员完成退货工单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MTLPkXPKNpE5f-dPuwTn-19">
+          <mxGeometry x="-0.1714" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MTLPkXPKNpE5f-dPuwTn-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="270" as="sourcePoint" />
+            <mxPoint x="560" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
