@@ -16,8 +16,8 @@
         <mxCell id="MTLPkXPKNpE5f-dPuwTn-5" value="进入“已审核”状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MTLPkXPKNpE5f-dPuwTn-6" value="进入“已关闭”状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="MTLPkXPKNpE5f-dPuwTn-6" value="售后单进入“已关闭”状态；订单在订单管理中进入原本流程状态，可继续完成订单。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MTLPkXPKNpE5f-dPuwTn-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTLPkXPKNpE5f-dPuwTn-2" target="MTLPkXPKNpE5f-dPuwTn-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
