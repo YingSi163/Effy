@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.3">
+  <diagram name="第 1 页" id="MQEfb1cXl2jYxcoMoodK">
+    <mxGraphModel dx="1847" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1wR6He1Y-9uv03pCbzO-1" value="安检隐患详情表&lt;div&gt;逻辑图&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-50" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c1wR6He1Y-9uv03pCbzO-2" value="基本提要：&lt;div&gt;1、每单每户都有安检记录，可导出的每条安检记录有唯一安检单号，基本用户信息和安检时间等。&lt;/div&gt;&lt;div&gt;2、被勾选的安检单记录可选择“下载详情”，下载出安检单的pdf版本。&lt;/div&gt;&lt;div&gt;3、由于当初跟多立恒提需求时的理解偏差，多立恒做出了第2条的功能，而没有实现直接在页面中列出隐患内容的文字详情。因此需要此脚本完成该功能。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;需求：&lt;/div&gt;&lt;div&gt;1、需要上报有隐患的用户和具体隐患项。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;各项信息获取来源：&lt;/div&gt;&lt;div&gt;1、隐患详情可通过读取pdf版安检详情获得&lt;/div&gt;&lt;div&gt;2、安检单号和安检详情pdf文件名一致&lt;/div&gt;&lt;div&gt;3、所需上报的其他信息均可在安检单管理中下载获得，因此只需在导出的安检单表格中新增一列“隐患详情”，将对应安检单号的pdf内容中的隐患项填入到表格中。&lt;/div&gt;&lt;div&gt;4、这个过程最耗时的步骤是选中安检单下载详情这一项，无法像“导出”功能一样将筛选后的所有内容全部下载详情，只能每页100个选中下载，再翻页继续下载。每天有一千余条安检单，下载过程比较慢。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="40" width="320" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="c1wR6He1Y-9uv03pCbzO-4" value="scripts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c1wR6He1Y-9uv03pCbzO-5" value="sql_filterusers.py" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="c1wR6He1Y-9uv03pCbzO-4">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1wR6He1Y-9uv03pCbzO-6" value="process_excel.py" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="c1wR6He1Y-9uv03pCbzO-4">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1wR6He1Y-9uv03pCbzO-7" value="read_pdf.py" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="c1wR6He1Y-9uv03pCbzO-4">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1wR6He1Y-9uv03pCbzO-9" value="sql_filterusers.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
